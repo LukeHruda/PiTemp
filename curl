@@ -1,0 +1,11 @@
+curl --include \
+--request POST \
+--header "Content-Type: application/json" \
+--data-binary "[
+{
+\"Time\" :\"2021-09-24T19:10:14.096Z\",
+\"Temp\" :98.6,
+\"Humidity\" :98.6
+}
+]" \
+"https://api.powerbi.com/beta/51cca0e1-2d5a-4d1b-aa9a-ddaaa78aeec2/datasets/9df152f7-c61d-4455-96f5-1c731f105ef7/rows?noSignUpCheck=1&key=9CXMISR5sTjbzkAiVKuqdAq10c9y9gREhCwp%2BPKK2NyxmvnyXVDUM1rIMPKRKneVOeJIlQzDPxUNlkm4ZuYCQQ%3D%3D"
